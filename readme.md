@@ -97,4 +97,7 @@ int main(){
 * SetOperations does not release memory automatically, this is left to the individual programmer
 * Sets are treated as contiguous blocks, either as stack-local or dynamically allocated
 * Container and Abstract Data Types such as Linked Lists or ```std::vector``` may be used as long as the proper operators are overloaded
+<<<<<<< HEAD
 
+=======
+>>>>>>> d3dd4f0443ff9fec67e0af33dc1e4a64627e919b
