@@ -64,7 +64,7 @@ bool  operator!()
 
 ```c++
 #include <iostream>
-#include "set_operations.hpp"
+#include "setoperations.hpp"
 
 int main(){
 
@@ -77,7 +77,7 @@ int main(){
 	int copySet* = SetOperations::copySet<int, int>(set, 32);
 
 	// Shuffles the set
-	SetOperations::shuffle(set, 32);
+	SetOperations::shuffle<int, int>(set, 32);
 
 	// Evaluates as false
 	bool equal = SetOperations::areEqual<int, int>(set, 32, copySet, 32);
