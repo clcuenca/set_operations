@@ -74,7 +74,7 @@ int main(){
 	int set* = SetOperations::getSet(17, 32, SetOperations::getRandomNumber<int>);
 
 	// Copies the set
-	int copySet = SetOperations::copySet<int, int>(set, 32);
+	int copySet* = SetOperations::copySet<int, int>(set, 32);
 
 	// Shuffles the set
 	SetOperations::shuffle(set, 32);
