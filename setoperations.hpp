@@ -1,6 +1,7 @@
 /// @author: Carlos L. Cuenca
 /// @file: set_operations.hpp
 /// @note: Various Templeted set operations
+#include <ctime>
 
 namespace SetOperations{
                 
