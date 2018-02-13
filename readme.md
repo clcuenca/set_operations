@@ -62,9 +62,9 @@ bool  operator!()
 
 # Usage
 
-```
+```c++
 #include <iostream>
-#include "set_operations.hpp"
+#include "setoperations.hpp"
 
 int main(){
 
@@ -74,10 +74,10 @@ int main(){
 	int set* = SetOperations::getSet(17, 32, SetOperations::getRandomNumber<int>);
 
 	// Copies the set
-	int copySet = SetOperations::copySet<int, int>(set, 32);
+	int copySet* = SetOperations::copySet<int, int>(set, 32);
 
 	// Shuffles the set
-	SetOperations::shuffle(set, 32);
+	SetOperations::shuffle<int, int>(set, 32);
 
 	// Evaluates as false
 	bool equal = SetOperations::areEqual<int, int>(set, 32, copySet, 32);
@@ -96,5 +96,5 @@ int main(){
 
 * SetOperations does not release memory automatically, this is left to the individual programmer
 * Sets are treated as contiguous blocks, either as stack-local or dynamically allocated
-* Container and Abstract Data Types such as Linked Lists or ```c++std::vector``` may be used as long as the proper operators are overloaded
+* Container and Abstract Data Types such as Linked Lists or ```std::vector``` may be used as long as the proper operators are overloaded
 
