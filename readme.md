@@ -62,7 +62,7 @@ bool  operator!()
 
 # Usage
 
-```
+```c++
 #include <iostream>
 #include "set_operations.hpp"
 
@@ -96,5 +96,5 @@ int main(){
 
 * SetOperations does not release memory automatically, this is left to the individual programmer
 * Sets are treated as contiguous blocks, either as stack-local or dynamically allocated
-* Container and Abstract Data Types such as Linked Lists or ```c++std::vector``` may be used as long as the proper operators are overloaded
+* Container and Abstract Data Types such as Linked Lists or ```c++ std::vector``` may be used as long as the proper operators are overloaded
 
